@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>I Hate Git :) | Caree Youngman</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -24,8 +24,205 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section>
+						<h3>Before we get started...</h3>
+						<ul>
+							<li>Make sure you have a local Git installation (https://git-scm.com/)</li>
+							<li>Pull up your command line tool of choice</li>
+							<li>Log into GitHub - or make an account</li>
+							<li>Join us on Slack - ask a volunteer how.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>About Me</h3>
+						<ul>
+							<li>After dropping out of college and (re)teaching myself to code, I spent 4 years in Web Development, primarily Front End Development</li>
+							<li>I love thinking about UX, web animations, and anything JavaScript</li>		
+						</ul>
+					</section>
+					<section>
+						<h3>About Me</h3>
+						<ul>
+							<li>Now: UI/UX Engineering Manager at Creative Market</li>
+							<li>Director of Women Who Code DFW</li>
+							<li>Full time student at WGU College of Engineering, B.S. Software Development</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Connect with Me</h3>
+						<ul>
+							<li>@CareeCodes on Twitter, Instagram, and almost everywhere else.</li>
+							<li><a href="http://caree.codes">http://caree.codes</a></li>
+							<li><a href="blog.caree.codes">blog.caree.codes</a></li>
+							<li>Reach out to me on Slack.</li>							
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>Intro to Git and Github</section>
+					<section>Git it, gURL</section>
+					<section>I Hate Git :)</section>
+				</section>
+
+				<section>
+					<section><img src="assets/whatisgithub.jpg"></section>
+					<section><img src="assets/pleasehireme.jpg"></section>
+					<section><img src="assets/myrepos.png" style="max-height:75vh;"></section>
+					<section><img src="assets/noidea.png" style="max-height:75vh;"></section>
+				</section>
+
+				<section>
+					<h3>General Advice</h3>
+					<ul>
+						<li>Save and push to your remote branch often</li>
+						<li>K.I.S.S. (And consult your rubber duck often<sup>4</sup>)</li>
+						<li>Google stuff if you need to, and ask for help</li>
+					</ul>
+				</section>
+
+				<section>My goal for this workshop...</section>
+
+				<section>
+					<section>What's the difference between Git and GitHub?</section>
+					<section>Git is a version control system.</section>
+					<section>GitHub is a hosting service for Git repositories.</section>
+				</section>
+
+				<section>
+					<section>
+						Version control systems are a category of software tools that help a software team manage changes to source code over time.<sup>1</sup>
+					</section>
+					<section>
+						Version Control is helpful for... 
+						<ul>
+							<li>Collaboration</li>
+							<li>Source of truth and record</li>
+							<li>Maintaining multiple versions of the same software</li>
+						</ul>
+					</section>
+					<section>
+						Almost all software companies use a form of version control. And the ones who don’t, should!
+					</section>
+					<section>
+						There are a several different version control systems, but Git is the most popular one.<sup>2</sup>
+					</section>
+					<section>
+						There are a lot of ways to interaction with a version control system, but a universal one that you'll encounter at 
+						almost any job is the command line.
+					</section>
+				</section>
+
+				<section>Let's learn some commands!</section>
+
+				<section>
+					<section>
+						<i>git add</i>
+					</section>	
+					<section>
+						git add stages changes to be committed
+					</section>	
+					<section>
+						staging is basically a holding area where you put files that you want to commit.
+					</section>
+					<section>
+						<i>git add myFileName.js</i><br/>
+						<i>git add .</i>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<i>git commit</i>
+					</section>
+					<section>
+						Creates a commit and saves it to your repository.<br/>
+						You have to add your changes to staging before you can commit.<br/>
+						You must include a commit message when commiting changes.
+					</section>
+					<section>
+						<i>git commit -m "This is my commit message!"</i>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						Commit messages are used to communicate...
+					</section>
+					<section>
+						<h3>To ask questions</h3>
+						<img src="assets/toquestion.png">
+					</section>
+					<section>
+						<h3>To celebrate project milestones</h3>
+						<img src="assets/tocelebrate.png">
+					</section>
+					<section>
+						<h3>To give a colleague constructive feedback</h3>
+						<img src="assets/feedback.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						A good commit message is <b>descriptive</b> and <b>well-formatted.</b><sup>3</sup>
+						Sometimes teams and companies have guidelines on how to format commit messages.	
+					</section>
+					<section>
+						<img src="assets/drake.jpg">						
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<i>git push</i>
+					</section>
+					<section>
+						“Pushes” your local repository changes to your remote repository.<br/>
+						You have to commit your changes before you can push.
+					</section>
+				</section>
+
+				<section>
+					<section>git branch</section>
+					<section>
+					A branch is essentially an independent line of development.
+					You can take advantage of branching when working on new features or bug fixes because it 
+					isolates your work from that of other team members.<sup>5</sup>						
+					</section>
+					<section>
+						<img src="assets/branching.png">
+					</section>
+					<section>
+						<i>git branch new-branch-name</i><br/>
+						<i>git checkout -b new-branch-name</i>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<ol>
+							Sources:
+							<li><a href="https://www.atlassian.com/git/tutorials/what-is-version-control">What is Version Control?</a></li>
+							<li><a href="https://rhodecode.com/insights/version-control-systems-2016">Version Control Popularity in 2016</a></li>
+							<li><a href="https://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a></li>
+							<li><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber Duck Debugging </a></li>
+							<li><a href="https://backlog.com/git-tutorial/using-branches/">Using Git Branching</a></li>
+						</ol>						
+					</section>
+					<section>
+						<ul>
+							Additional Learning Resources:
+							<li><a href="https://www.youtube.com/watch?v=1h9_cB9mPT8&t=">GitHub for Noobs (Youtube Course)</a></li>
+							<li><a href="https://www.atlassian.com/git">Getting Git Right (Atlassian)</a></li>
+							<li><a href="https://git-scm.com/">Git documentation</a></li>
+						</ul>
+					</section>
+				</section>
 			</div>
 		</div>
 
