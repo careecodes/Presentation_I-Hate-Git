@@ -1,0 +1,9 @@
+/* Overriding some weirdness in reveal.css */
+
+.ihategit h3 {
+    text-transform: none;
+}
+
+sup a {
+    text-decoration: underline;
+}
